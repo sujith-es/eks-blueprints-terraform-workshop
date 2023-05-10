@@ -18,6 +18,6 @@ data "aws_eks_cluster_auth" "this" {
 
 # To Authenticate with ECR Public in eu-east-1
 data "aws_ecrpublic_authorization_token" "token" {
-  provider = aws.oregon
+  provider = aws.virginia
 }
 
