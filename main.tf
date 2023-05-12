@@ -1,7 +1,7 @@
 # Required for public ECR where Karpenter artifacts are hosted
 provider "aws" {
-  region = "us-west-2"
-  alias  = "oregon"
+  region = "eu-west-2"
+  alias  = "London"
 }
 
 provider "kubernetes" {
